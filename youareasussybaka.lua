@@ -139,6 +139,8 @@ if PlaceId == 3260590327 then
                 end)
             end
         end
+        
+        repeat task.wait() until false
     end
 else
     local State = ReplicatedStorage.State
